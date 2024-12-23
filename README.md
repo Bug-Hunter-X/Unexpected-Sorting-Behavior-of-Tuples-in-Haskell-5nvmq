@@ -1,0 +1,2 @@
+# Unexpected Sorting Behavior of Tuples in Haskell
+This example demonstrates a potential issue with Haskell's `sort` function when used with tuples.  The default comparison for tuples in `sort` is lexicographical; this means it compares the first element, then the second, and so on. This can produce unexpected behavior if you're not careful with the data types involved.
